@@ -14,12 +14,12 @@ Create a `.env` file in the project root with the following content:
 
 ```env
 # Database credentials
-POSTGRES_USER=todo_user
+POSTGRES_USER=user_name
 POSTGRES_PASSWORD=your_secure_password_here
-POSTGRES_DB=todo_db
+POSTGRES_DB=db_anme
 
 # Backend configuration
-DATABASE_URL=postgresql+psycopg2://todo_user:your_secure_password_here@db:5432/todo_db
+DATABASE_URL=postgresql+psycopg2://user:your_secure_password_here@db:5432/x_db
 CORS_ORIGINS=http://localhost
 ```
 
